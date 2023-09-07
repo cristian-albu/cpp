@@ -1,8 +1,8 @@
 # Ignore build artifacts and executables
 /build/
 /bin/
-/*.exe
-/*.out
+*.exe
+*.out
 
 # Ignore object files and libraries
 *.o

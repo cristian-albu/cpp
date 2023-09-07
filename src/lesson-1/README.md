@@ -1,4 +1,4 @@
-## Basic variables
+# Basic variables and compilation
 
 C++ provides several basic data types that you can use to declare variables and represent different types of data. Here are some of the fundamental data types in C++:
 
@@ -43,7 +43,6 @@ C++ provides several basic data types that you can use to declare variables and 
    std::string is a complex data type designed to store sequences of characters.
 
     ```cpp
-    //
     #include <string>
     int main()
     {
