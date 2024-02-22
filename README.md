@@ -9,12 +9,12 @@ At least 2 hours/day - around 12 weeks to complete
 | Environment                                                      | 1.5         | 100%       | ✅        |
 | Diving in                                                        | 1.5         | 100%       | ✅        |
 | Variables and data types                                         | 1.75        | 100%       | ✅        |
-| Operations on data                                               | 2.25        | 75%        |           |
-| Literals and constants                                           | 1           | 0%         |           |
-| Data conversions: overflow & underflow                           | 0.5         | 0%         |           |
-| Bitwise operators                                                | 1.5         | 0%         |           |
-| Variable lifetime and scope                                      | 0.25        | 0%         |           |
-| Control Flow                                                     | 2           | 0%         |           |
+| Operations on data                                               | 2.25        | 100%       | ✅        |
+| Literals and constants                                           | 1           | 100%       | ✅        |
+| Data conversions: overflow & underflow                           | 0.5         | 100%       | ✅        |
+| Bitwise operators                                                | 1.5         | 10%        |           |
+| Variable lifetime and scope                                      | 0.25        | 100%       | ✅        |
+| Control Flow                                                     | 2           | 90%        |           |
 | Loops                                                            | 3           | 0%         |           |
 | Arrays                                                           | 2.75        | 0%         |           |
 | Pointers                                                         | 4.25        | 0%         |           |
@@ -55,9 +55,9 @@ At least 2 hours/day - around 12 weeks to complete
 | C++ 20 Coroutines                                                | 2.5         | 0%         |           |
 | C++ 20 Modules                                                   | 3.75        | 0%         |           |
 
-| PBInfo categories          | Exercises - 300 | Completion | Completed |
+| PBInfo categories          | Exercises - 305 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
-| Basics                     | 25              | 33%        |           |
+| Basics                     | 30              | 33%        |           |
 | Elemental algorithms       | 50              | 0%         |           |
 | Vectors                    | 50              | 0%         |           |
 | Matrices                   | 25              | 0%         |           |
