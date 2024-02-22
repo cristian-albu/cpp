@@ -57,7 +57,7 @@ At least 2 hours/day - around 12 weeks to complete
 
 | PBInfo categories          | Exercises - 305 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
-| Basics                     | 30              | 33%        |           |
+| Basics                     | 30              | 66%        |           |
 | Elemental algorithms       | 50              | 0%         |           |
 | Vectors                    | 50              | 0%         |           |
 | Matrices                   | 25              | 0%         |           |
