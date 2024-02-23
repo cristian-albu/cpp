@@ -14,8 +14,8 @@ At least 2 hours/day - around 12 weeks to complete
 | Data conversions: overflow & underflow                           | 0.5         | 100%       | ✅        |
 | Bitwise operators                                                | 1.5         | 10%        |           |
 | Variable lifetime and scope                                      | 0.25        | 100%       | ✅        |
-| Control Flow                                                     | 2           | 90%        |           |
-| Loops                                                            | 3           | 0%         |           |
+| Control Flow                                                     | 2           | 100%       | ✅        |
+| Loops                                                            | 3           | 100%       | ✅        |
 | Arrays                                                           | 2.75        | 0%         |           |
 | Pointers                                                         | 4.25        | 0%         |           |
 | References                                                       | 0.75        | 0%         |           |
