@@ -16,7 +16,7 @@ At least 2 hours/day - around 12 weeks to complete
 | Variable lifetime and scope                                      | 0.25        | 100%       | ✅        |
 | Control Flow                                                     | 2           | 100%       | ✅        |
 | Loops                                                            | 3           | 100%       | ✅        |
-| Arrays                                                           | 2.75        | 0%         |           |
+| Arrays                                                           | 2.75        | 100%       | ✅        |
 | Pointers                                                         | 4.25        | 0%         |           |
 | References                                                       | 0.75        | 0%         |           |
 | Character manipulation and strings                               | 5.5         | 0%         |           |
@@ -55,7 +55,7 @@ At least 2 hours/day - around 12 weeks to complete
 | C++ 20 Coroutines                                                | 2.5         | 0%         |           |
 | C++ 20 Modules                                                   | 3.75        | 0%         |           |
 
-| PBInfo categories          | Exercises - 305 | Completion | Completed |
+| PBInfo categories          | Exercises - 310 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
 | Basics                     | 30              | 100%       | ✅        |
 | Elemental algorithms       | 50              | 0%         |           |
@@ -63,7 +63,7 @@ At least 2 hours/day - around 12 weeks to complete
 | Matrices                   | 25              | 0%         |           |
 | Functions                  | 15              | 0%         |           |
 | Recursion                  | 10              | 0%         |           |
-| Sorting                    | 5               | 0%         |           |
+| Sorting                    | 10              | 0%         |           |
 | Strings                    | 20              | 0%         |           |
 | Stack, Queue, Linked Lists | 30              | 0%         |           |
 | Backtracking               | 10              | 0%         |           |
