@@ -55,11 +55,11 @@ At least 2 hours/day - around 12 weeks to complete
 | C++ 20 Coroutines                                                | 2.5         | 0%         |           |
 | C++ 20 Modules                                                   | 3.75        | 0%         |           |
 
-| PBInfo categories          | Exercises - 300 | Completion | Completed |
+| PBInfo categories          | Exercises - 250 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
 | Basics                     | 30              | 100%       | ✅        |
-| Elemental algorithms       | 50              | 42%        |           |
-| Vectors                    | 50              | 0%         |           |
+| Elemental algorithms       | 25              | 84%        |           |
+| Arrays                     | 25              | 48%        |           |
 | Matrices                   | 25              | 0%         |           |
 | Functions                  | 15              | 0%         |           |
 | Recursion                  | 10              | 0%         |           |
