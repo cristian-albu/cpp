@@ -12,7 +12,7 @@ At least 2 hours/day - around 12 weeks to complete
 | Operations on data                                               | 2.25        | 100%       | ✅        |
 | Literals and constants                                           | 1           | 100%       | ✅        |
 | Data conversions: overflow & underflow                           | 0.5         | 100%       | ✅        |
-| Bitwise operators                                                | 1.5         | 10%        |           |
+| Bitwise operators                                                | 1.5         | 10%        | ⏳        |
 | Variable lifetime and scope                                      | 0.25        | 100%       | ✅        |
 | Control Flow                                                     | 2           | 100%       | ✅        |
 | Loops                                                            | 3           | 100%       | ✅        |
@@ -55,11 +55,11 @@ At least 2 hours/day - around 12 weeks to complete
 | C++ 20 Coroutines                                                | 2.5         | 0%         |           |
 | C++ 20 Modules                                                   | 3.75        | 0%         |           |
 
-| PBInfo categories          | Exercises - 250 | Completion | Completed |
+| PBInfo categories          | Exercises - 275 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
 | Basics                     | 30              | 100%       | ✅        |
-| Elemental algorithms       | 25              | 84%        |           |
-| Arrays                     | 25              | 48%        |           |
+| Elemental algorithms       | 25              | 84%        | ⏳        |
+| Arrays                     | 50              | 48%        | ⏳        |
 | Matrices                   | 25              | 0%         |           |
 | Functions                  | 15              | 0%         |           |
 | Recursion                  | 10              | 0%         |           |
