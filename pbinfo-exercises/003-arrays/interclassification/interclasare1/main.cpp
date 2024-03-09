@@ -5,60 +5,60 @@ using namespace std;
 ifstream fin("interclasare1.in");
 ofstream fout("interclasare1.out");
 
-void merge(int len, int arr[], int l_len, int l_arr[], int r_len, int r_arr[]) {
-  int r{0}, l{0}, i{0};
+int n, m, i;
+int main() {
 
-  while (l < l_len && r < r_len) {
-    if (l_arr[l] < r_arr[r]) {
-      arr[i] = l_arr[l];
+  fin >> n;
+
+  int arr1[n];
+  for (i = 0; i < n; ++i)
+    fin >> arr1[i];
+
+  fin >> m;
+
+  int arr2[m];
+  for (i = 0; i < m; ++i)
+    fin >> arr2[i];
+
+  int j{n + m};
+  int arr3[j];
+  int l{0}, r{0};
+  i = 0;
+
+  while (l < n && r < m) {
+    if (arr1[l] < arr2[r]) {
+      arr3[i] = arr1[l];
       ++l;
-    } else if (l_arr[l] > r_arr[r]) {
-      arr[i] = r_arr[r];
+    } else if (arr1[l] > arr2[r]) {
+      arr3[i] = arr2[r];
       ++r;
     } else {
-      arr[i] = l_arr[l];
-      ++l;
+      arr3[i] = arr1[l];
       ++r;
-      --len;
+      ++l;
+      --j;
     }
     ++i;
   }
 
-  while (l < l_len) {
-    arr[i] = l_arr[l];
-    ++i;
+  while (l < n) {
+    arr3[i] = arr1[l];
     ++l;
-  }
-
-  while (r < r_len) {
-    arr[i] = r_arr[r];
     ++i;
+  }
+
+  while (r < m) {
+    arr3[i] = arr2[r];
     ++r;
+    ++i;
   }
 
-  for (i = 0; i < len; ++i) {
-    cout << arr[i] << " ";
-    if ((i + 1) % 10 == 0 || i == len - 1)
-      cout << endl;
+  for (i = 0; i < j; ++i) {
+    fout << arr3[i] << " ";
+
+    if ((i + 1) % 10 == 0 || i == j - 1)
+      fout << endl;
   }
-}
-
-int main() {
-  int n, m, i;
-
-  fin >> n;
-  int v1[n];
-  for (i = 0; i < n; ++i)
-    fin >> v1[i];
-
-  fin >> m;
-  int v2[m];
-  for (i = 0; i < m; ++i)
-    fin >> v2[i];
-
-  int v3_len{n + m};
-  int v3[v3_len];
-  merge(v3_len, v3, n, v1, m, v2);
 
   return 0;
 }
