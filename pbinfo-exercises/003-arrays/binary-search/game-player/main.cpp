@@ -1,42 +1,52 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
-long long binary_search_closest_index(long long arr[], long long first, long long last, long long val) {
-    long long mid = first + (last - first) / 2;
+ifstream fin("f.in");
 
-    if (last >= first) {
-        if (val == arr[mid])
-            return mid + 1;
+int i, j, val, p_len, r_len;
 
-        if (arr[mid] > val)
-            return binary_search_closest_index(arr, mid + 1, last, val);
 
-        return binary_search_closest_index(arr, first, mid - 1, val);
+int binary_search_closest(int arr[], int start, int end, int target) {
+    if (end >= start) {
+        int mid = start + (end - start) / 2;
+
+        if (arr[mid] == target)
+            return mid;
+
+        if (target > arr[mid])
+            return binary_search_closest(arr, start, mid - 1, target);
+
+        return binary_search_closest(arr, mid + 1, end, target);
     }
-
-    return mid;
+    return start;
 }
 
-
-
 int main() {
-    long long i, p_len, r_len;
+    fin >> p_len;
+    int players[p_len];
 
-    cin >> p_len;
-    long long players[p_len];
-    for (i = 0; i < p_len; ++i)
-        cin >> players[i];
-
-    cin >> r_len;
-    long long rounds[r_len];
-    for (i = 0; i < r_len; ++i)
-        cin >> rounds[i];
-
-
-    for (i = 0; i < r_len; ++i) {
-        long long res = binary_search_closest_index(players, 0, p_len - 1, rounds[i]);
-        cout << res << endl;
+    fin >> players[0];
+    for (i = 1, j = 1; i < p_len; ++i) {
+        fin >> val;
+        if (players[j - 1] != val) {
+            players[j] = val;
+            ++j;
+        }
     }
+
+    p_len -= i - j;
+
+
+    fin >> r_len;
+    int rounds[r_len];
+    for (i = 0; i < r_len; ++i)
+        fin >> rounds[i];
+
+
+    for (i = 0; i < r_len; ++i)
+        cout << binary_search_closest(players, 0, p_len - 1, rounds[i]) + 1 << endl;
+
 
     return 0;
 }
