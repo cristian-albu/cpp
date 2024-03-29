@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int list1[11]{2, 5, 1, 7, 11, 3, 10, 9, 6, 4, 8};
-int list2[10]{10, 3, 7, 1, 2, 6, 4, 7, 8, 5};
-int list3[10]{7, 2, 1, 5, 9, 3, 6, 8, 4, 10};
+int list1[11]{ 2, 5, 1, 7, 11, 3, 10, 9, 6, 4, 8 };
+int list2[10]{ 10, 3, 7, 1, 2, 6, 4, 7, 8, 5 };
+int list3[10]{ 7, 2, 1, 5, 9, 3, 6, 8, 4, 10 };
 
 void display_array(int len, int v[])
 {
-    for (int i{0}; i < len; ++i)
+    for (int i{ 0 }; i < len; ++i)
     {
         cout << v[i] << " ";
     }
@@ -21,7 +21,7 @@ void quick_sort(int start, int len, int v[])
     if (len - 1 <= start)
         return;
 
-    int i{start - 1}, j{start}, temp;
+    int i{ start - 1 }, j{ start }, temp;
 
     while (j < len - 1)
     {
