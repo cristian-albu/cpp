@@ -56,8 +56,8 @@
 | PBInfo categories          | Exercises - 275 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
 | Basics                     | 30              | 100%       | ✅        |
-| Elemental algorithms       | 25              | 84%        | ✅        |
-| Arrays                     | 50              | 48%        | ✅        |
+| Elemental algorithms       | 25              | 100%        | ✅        |
+| Arrays                     | 50              | 100%        | ✅        |
 | Matrices                   | 25              | 0%         |           |
 | Functions                  | 15              | 0%         |           |
 | Recursion                  | 10              | 0%         |           |
