@@ -2,8 +2,6 @@
 
 ### Course + PBInfo exercises
 
-At least 2 hours/day - around 12 weeks to complete
-
 | C++ Course sections                                              | Hours - 115 | Completion | Completed |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------- |
 | Environment                                                      | 1.5         | 100%       | ✅        |
@@ -12,7 +10,7 @@ At least 2 hours/day - around 12 weeks to complete
 | Operations on data                                               | 2.25        | 100%       | ✅        |
 | Literals and constants                                           | 1           | 100%       | ✅        |
 | Data conversions: overflow & underflow                           | 0.5         | 100%       | ✅        |
-| Bitwise operators                                                | 1.5         | 10%        | ⏳        |
+| Bitwise operators                                                | 1.5         | 10%        | ✅        |
 | Variable lifetime and scope                                      | 0.25        | 100%       | ✅        |
 | Control Flow                                                     | 2           | 100%       | ✅        |
 | Loops                                                            | 3           | 100%       | ✅        |
@@ -58,8 +56,8 @@ At least 2 hours/day - around 12 weeks to complete
 | PBInfo categories          | Exercises - 275 | Completion | Completed |
 | -------------------------- | --------------- | ---------- | --------- |
 | Basics                     | 30              | 100%       | ✅        |
-| Elemental algorithms       | 25              | 84%        | ⏳        |
-| Arrays                     | 50              | 48%        | ⏳        |
+| Elemental algorithms       | 25              | 84%        | ✅        |
+| Arrays                     | 50              | 48%        | ✅        |
 | Matrices                   | 25              | 0%         |           |
 | Functions                  | 15              | 0%         |           |
 | Recursion                  | 10              | 0%         |           |
@@ -72,8 +70,6 @@ At least 2 hours/day - around 12 weeks to complete
 | Trees                      | 10              | 0%         |           |
 
 ### Leetcode
-
-At least 2 hours/day - around 6 weeks to complete
 
 | Leetcode categories     | Exercises - 143 | Completion | Completed |
 | ----------------------- | --------------- | ---------- | --------- |
